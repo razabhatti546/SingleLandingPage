@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)), url(861498.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: cover;
+    
+
+    
+}
+nav{
+    width: 100% ;
+    height: 15vh;
+    display: flex;
+    color:white;
+    background-color: rgba(0,0,0,.3);
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+nav .menu{
+    width: 40%;
+    text-align: center;
+   justify-content: space-around;
+    display: flex;
+
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color:white
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+main{
+    width: 100%;
+    height:85vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+
+}
+section{
+
+}
+section h2{
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h3{
+    margin: 20px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 2px black;
+    animation-play-state: running;
+}
+section a{
+    padding: 12px 30px;
+   text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 13px;
+    outline:none;
+    border-radius: 4px;
+    font-weight: 500;
+
+}
+section .button1{
+    background-color:white;
+    color:green;
+    margin-right: 10px;
+    
+}
+section .button2{
+    background-color:white;
+    color:green
+}
